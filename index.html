@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Clone</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,15 +14,29 @@
             crossorigin="anonymous"
         />
     </head>
-
     <body>
         <header>
             <!-- place navbar here -->
-             <h1 class="text-center">Bienvenidos a nuestra pagina web</h1>
+             <h1 class="text-center">Bienvenidos a Dev_clone</h1>
         </header>
         <main>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, magni non fugiat illum eos tempora nihil, laboriosam voluptatum et pariatur dolore laborum, voluptatem eveniet obcaecati soluta consequuntur provident exercitationem quibusdam!</p>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, magni non fugiat illum eos tempora nihil, laboriosam voluptatum et pariatur dolore laborum, voluptatem eveniet obcaecati soluta consequuntur provident exercitationem quibusdam!</p>
+            <div class="container">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <form action="" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+                    <br>
+                    <label for="comentario">Comentario</label>
+                    <textarea name="coment" id="" class="form-control"></textarea>
 
+                    <input type="submit" value="Enviar" class="bg-success form-control">
+                </form>
+                </div>
+                <div class="col-lg-4"></div>
+                
+            </div>
         </main>
         <footer>
             <!-- place footer here -->
